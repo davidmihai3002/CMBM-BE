@@ -3,7 +3,6 @@ export interface Competitor {
   name: string;
   age: string;
   education: string;
-  competitionsWon: string[] | null;
   competedIn: string[] | null;
   profileImgUrl: string;
 }
